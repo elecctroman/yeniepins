@@ -1,0 +1,40 @@
+.app--customer .app-sidebar {
+    background: linear-gradient(180deg, rgba(13, 22, 24, 0.95), rgba(10, 25, 23, 0.88));
+    border-right: 1px solid rgba(59, 196, 130, 0.2);
+}
+
+.app--customer .sidebar__link.is-active,
+.app--customer .sidebar__link:hover {
+    background: rgba(59, 196, 130, 0.16);
+    box-shadow: inset 0 0 0 1px rgba(59, 196, 130, 0.28);
+    color: #d3f7e6;
+}
+
+.app--customer .topbar__title {
+    color: #a7f0d1;
+}
+
+.app--customer .badge--success {
+    background: rgba(59, 196, 130, 0.2);
+    color: #74ffbf;
+}
+
+.app--customer .stat-card__value {
+    color: #b3f4de;
+}
+
+.app--customer .btn-primary {
+    background: linear-gradient(140deg, rgba(59, 196, 130, 0.95), rgba(85, 212, 163, 0.9));
+    border-color: rgba(59, 196, 130, 0.4);
+    color: #05150f;
+}
+
+.app--customer .btn-primary:hover {
+    border-color: rgba(116, 255, 191, 0.8);
+}
+
+@media (max-width: 960px) {
+    .app--customer .app-shell--with-sidebar {
+        grid-template-columns: 1fr;
+    }
+}
