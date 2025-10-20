@@ -1,0 +1,1 @@
+-- Başlangıç verileri bu dosyada sağlanacaktır.

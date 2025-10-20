@@ -1,0 +1,7 @@
+.app--admin .card {
+    border-image: linear-gradient(135deg, rgba(108, 92, 231, 0.6), rgba(52, 152, 219, 0.4)) 1;
+}
+
+.app--admin .app-main {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}

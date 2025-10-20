@@ -1,0 +1,1 @@
+-- Veritabanı şeması bu dosyada tanımlanacaktır.
